@@ -41,7 +41,7 @@ extern t_variable *listVariables;
 unsigned int lenVarambiente;
 t_varambiente *listVarambiente;
 
-void exec();
+void exec(Quad *lista);
 void add_var(char *id, double value, byte type);
 float getValue(char *lexema);
 Quad *copyQuad(Quad *list);

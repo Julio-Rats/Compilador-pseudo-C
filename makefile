@@ -30,7 +30,7 @@ virtualmachine.o: virtualmachine.c virtualmachine.h
 
 clean:
 	rm -f *.o
-	rm $(TARGET)
+	rm -f $(TARGET)
 
 clear:
 	rm -f *.o
