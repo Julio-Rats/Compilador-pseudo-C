@@ -1,3 +1,4 @@
 .gitignore
 interpretador
 *.o
+.vscode

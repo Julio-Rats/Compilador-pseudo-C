@@ -460,7 +460,7 @@ char *interpretaStr(char *str)
     int indice = 0;
     for (int i = 0; i < len; i++)
     {
-        if ((str[i] == '\\'))
+        if (str[i] == '\\')
             switch (str[i + 1])
             {
             case 'n':
